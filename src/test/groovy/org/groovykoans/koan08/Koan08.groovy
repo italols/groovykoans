@@ -41,6 +41,8 @@ class Koan08 extends GroovyTestCase {
 
 
 
+
+
             // ------------ STOP EDITING HERE  ----------------------
         }
         [5: 2.5, 'smile': 'smile', 'smilee': 'smiley', 'heehee': 'heehey'].each { key, expectedValue ->
@@ -98,6 +100,8 @@ class Koan08 extends GroovyTestCase {
         // Create a closure that returns two random integers in a given range
         def generateTwoRandomInts = { int maxInt ->
             // ------------ START EDITING HERE ----------------------
+
+
 
 
 

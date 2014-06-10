@@ -67,6 +67,8 @@ class Koan11 extends GroovyTestCase {
 
 
 
+
+
             // ------------ STOP EDITING HERE  ----------------------
             assert db.firstRow('select count(*) c from Person').c == 1
             assert db.firstRow('select LASTNAME from Person where FIRSTNAME = ?', ['Jack']).lastname == 'Dawson'
@@ -84,11 +86,15 @@ class Koan11 extends GroovyTestCase {
 
 
 
+
+
             // ------------ STOP EDITING HERE  ----------------------
             assert db.firstRow('select count(*) c from Person').c == 23
 
             // Now do the same with an xml source from cast2.xml (add the actor names):
             // ------------ START EDITING HERE ----------------------
+
+
 
 
 
@@ -100,6 +106,8 @@ class Koan11 extends GroovyTestCase {
             // db.dataSet('PERSON') method. See http://groovy.codehaus.org/api/groovy/sql/DataSet.html
             def person = db.dataSet('PERSON')
             // ------------ START EDITING HERE ----------------------
+
+
 
 
 
@@ -124,6 +132,8 @@ class Koan11 extends GroovyTestCase {
 
 
 
+
+
             // ------------ STOP EDITING HERE  ----------------------
             assert lastNameRose == 'DeWitt'
 
@@ -131,6 +141,8 @@ class Koan11 extends GroovyTestCase {
             // last names of the people in Person
             def eCount = 0
             // ------------ START EDITING HERE ----------------------
+
+
 
 
 
@@ -149,6 +161,8 @@ class Koan11 extends GroovyTestCase {
 
             // Use eachRow() to change all the first names that contain the letter 'a' (lowercase) into 'Alf'.
             // ------------ START EDITING HERE ----------------------
+
+
 
 
 

@@ -54,6 +54,8 @@ class Koan05 extends GroovyTestCase {
 
 
 
+
+
         // ------------ STOP EDITING HERE  ----------------------
         assert idListResult == ['333Matthew', '233Christopher', '133Dominic']
     }
@@ -72,6 +74,8 @@ class Koan05 extends GroovyTestCase {
 
 
 
+
+
         // ------------ STOP EDITING HERE  ----------------------
         assert range == expectedRange
     }
@@ -83,6 +87,8 @@ class Koan05 extends GroovyTestCase {
         // http://groovy.codehaus.org/groovy-jdk/java/lang/Object.html#eachWithIndex(groovy.lang.Closure)
         def rangeResult = []
         // ------------ START EDITING HERE ----------------------
+
+
 
 
 

@@ -44,6 +44,8 @@ class Koan07 extends GroovyTestCase {
 
 
 
+
+
         // ------------ STOP EDITING HERE  ----------------------
         def result = technologies.findAll { it==~regexp }
 
@@ -62,6 +64,8 @@ class Koan07 extends GroovyTestCase {
                 "and can become difficult to maintain"
         String groovyString
         // ------------ START EDITING HERE ----------------------
+
+
 
 
 
@@ -97,6 +101,8 @@ class Koan07 extends GroovyTestCase {
 
 
 
+
+
         // ------------ STOP EDITING HERE  ----------------------
         def matcher = text=~groovyRegExp
         def groovySum = matcher.collect { it[3].toInteger() }.sum()
@@ -123,6 +129,8 @@ class Koan07 extends GroovyTestCase {
 
 
 
+
+
         // ------------ STOP EDITING HERE  ----------------------
         assert patternInGroovy instanceof Pattern
         assertEquals(patternInJava.pattern(), patternInGroovy.pattern())
@@ -136,6 +144,8 @@ class Koan07 extends GroovyTestCase {
 
 
 
+
+
         // ------------ STOP EDITING HERE  ----------------------
         assert firstNamesList == ['John', 'Paul', 'George', 'Ringo']
 
@@ -144,6 +154,8 @@ class Koan07 extends GroovyTestCase {
         def number = '4927856234092'
         boolean isNumberValid = false
         // ------------ START EDITING HERE ----------------------
+
+
 
 
 
@@ -166,6 +178,8 @@ class Koan07 extends GroovyTestCase {
                       |In the land of submarines'''.stripMargin()
         def result
         // ------------ START EDITING HERE ----------------------
+
+
 
 
 
@@ -194,6 +208,8 @@ class Koan07 extends GroovyTestCase {
         // create the same regular expression to sum the total leftovers, but this time document the regex
         String regexp
         // ------------ START EDITING HERE ----------------------
+
+
 
 
 

@@ -42,9 +42,13 @@ class Koan12 extends GroovyTestCase {
 
 
 
+
+
             // ------------ STOP EDITING HERE  ----------------------
             Integer.nonExistentMethod()
             // ------------ START EDITING HERE ----------------------
+
+
 
 
 
@@ -67,6 +71,8 @@ class Koan12 extends GroovyTestCase {
 
 
 
+
+
         // ------------ STOP EDITING HERE  ----------------------
         factory.work()
         long endTime = System.currentTimeMillis()
@@ -79,6 +85,8 @@ class Koan12 extends GroovyTestCase {
         def staticFactory = new StaticFactory(numbers: [2, 3])
         startTime = System.currentTimeMillis()
         // ------------ START EDITING HERE ----------------------
+
+
 
 
 

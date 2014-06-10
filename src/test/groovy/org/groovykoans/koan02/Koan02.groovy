@@ -33,6 +33,8 @@ class Koan02 extends GroovyTestCase {
 
 
 
+
+
         // ------------ STOP EDITING HERE  ----------------------
 
         assert predicate1
@@ -45,6 +47,8 @@ class Koan02 extends GroovyTestCase {
         List<String> list = ['item']
 
         // ------------ START EDITING HERE ----------------------
+
+
 
 
 
@@ -64,6 +68,8 @@ class Koan02 extends GroovyTestCase {
 
 
 
+
+
         // ------------ STOP EDITING HERE  ----------------------
 
         // Note how we can use String expressions inside an if statement.  It is automatically converted into a boolean.
@@ -79,6 +85,8 @@ class Koan02 extends GroovyTestCase {
 
         // Remove (or change) the offending integer to continue
         // ------------ START EDITING HERE ----------------------
+
+
 
 
 
