@@ -45,6 +45,8 @@ class Koan06 extends GroovyTestCase {
         // ------------ START EDITING HERE ----------------------
 
 
+
+
         // ------------ STOP EDITING HERE  ----------------------
         assert groovyResult == javaResult
     }
@@ -61,6 +63,8 @@ class Koan06 extends GroovyTestCase {
         // ------------ START EDITING HERE ----------------------
 
 
+
+
         // ------------ STOP EDITING HERE  ----------------------
         assert uniqueTypes == [Integer, String]
     }
@@ -75,6 +79,8 @@ class Koan06 extends GroovyTestCase {
         // ------------ START EDITING HERE ----------------------
 
 
+
+
         // ------------ STOP EDITING HERE  ----------------------
         assert count == 3
 
@@ -85,6 +91,8 @@ class Koan06 extends GroovyTestCase {
         // range objects, store all the prime numbers between 200 and 250 in the target variable
         def primesBetween200And250 = []
         // ------------ START EDITING HERE ----------------------
+
+
 
 
         // ------------ STOP EDITING HERE  ----------------------

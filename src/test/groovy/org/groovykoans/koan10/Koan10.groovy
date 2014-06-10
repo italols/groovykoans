@@ -45,6 +45,8 @@ class Koan10 extends GroovyTestCase {
         // ------------ START EDITING HERE ----------------------
 
 
+
+
         // ------------ STOP EDITING HERE  ----------------------
         assert movieCount == 7
 
@@ -54,12 +56,16 @@ class Koan10 extends GroovyTestCase {
         // ------------ START EDITING HERE ----------------------
 
 
+
+
         // ------------ STOP EDITING HERE  ----------------------
         assert moviesWithThe.containsAll(['Conan the Barbarian', 'The Expendables', 'The Terminator'])
 
         // How many movie ids have a value greater than 5?
         def movieIdsGreaterThan5
         // ------------ START EDITING HERE ----------------------
+
+
 
 
         // ------------ STOP EDITING HERE  ----------------------
@@ -74,6 +80,8 @@ class Koan10 extends GroovyTestCase {
 
         List<String> sortedList = []
         // ------------ START EDITING HERE ----------------------
+
+
 
 
         // ------------ STOP EDITING HERE  ----------------------
@@ -101,6 +109,8 @@ class Koan10 extends GroovyTestCase {
         // ------------ START EDITING HERE ----------------------
 
 
+
+
         // ------------ STOP EDITING HERE  ----------------------
         assert formatXml(html) == formatXml("<html><body><h1>title</h1></body></html>")
     }
@@ -116,6 +126,8 @@ class Koan10 extends GroovyTestCase {
 
         String convertedXml
         // ------------ START EDITING HERE ----------------------
+
+
 
 
         // ------------ STOP EDITING HERE  ----------------------
@@ -153,6 +165,8 @@ class Koan10 extends GroovyTestCase {
         // ------------ START EDITING HERE ----------------------
 
 
+
+
         // ------------ STOP EDITING HERE  ----------------------
         assert new File("${baseDir}/movies_copy.xml").exists()
     }
@@ -165,6 +179,8 @@ class Koan10 extends GroovyTestCase {
         def baseDir = 'src/test/groovy/org/groovykoans/koan10'
         def actualChecksum
         // ------------ START EDITING HERE ----------------------
+
+
 
 
         // ------------ STOP EDITING HERE  ----------------------

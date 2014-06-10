@@ -48,6 +48,8 @@ class Koan04 extends GroovyTestCase {
         // ------------ START EDITING HERE ----------------------
 
 
+
+
         // ------------ STOP EDITING HERE  ----------------------
         assert helloClosureResult == expectedHelloClosureResult
 
@@ -58,6 +60,8 @@ class Koan04 extends GroovyTestCase {
         // What is the result from the above execution?
         String expectedHelloRonalda
         // ------------ START EDITING HERE ----------------------
+
+
 
 
         // ------------ STOP EDITING HERE  ----------------------
@@ -74,12 +78,16 @@ class Koan04 extends GroovyTestCase {
         // ------------ START EDITING HERE ----------------------
 
 
+
+
         // ------------ STOP EDITING HERE  ----------------------
         assert happyBirthdayGranger == expectedHappyBirthdayGranger
 
         // Create a closure that accepts two integers, adds them, and multiplies the result by two
         def resultClosure
         // ------------ START EDITING HERE ----------------------
+
+
 
 
         // ------------ STOP EDITING HERE  ----------------------
@@ -115,6 +123,8 @@ class Koan04 extends GroovyTestCase {
         // ------------ START EDITING HERE ----------------------
 
 
+
+
         // ------------ STOP EDITING HERE  ----------------------
 
         // To make the code even cleaner, Groovy allows some syntactic sugar. If your method has a closure as its
@@ -131,6 +141,8 @@ class Koan04 extends GroovyTestCase {
         // ------------ START EDITING HERE ----------------------
 
 
+
+
         // ------------ STOP EDITING HERE  ----------------------
         assert monkeyColors == expectedMonkeyColors
 
@@ -142,6 +154,8 @@ class Koan04 extends GroovyTestCase {
         StringWriter filteredResult = new StringWriter()
         def prefix = 'src/test/groovy/org/groovykoans/koan04/'
         // ------------ START EDITING HERE ----------------------
+
+
 
 
         // ------------ STOP EDITING HERE  ----------------------
@@ -163,6 +177,8 @@ class Koan04 extends GroovyTestCase {
         // ------------ START EDITING HERE ----------------------
 
 
+
+
         // ------------ STOP EDITING HERE  ----------------------
 
         assert count == expectedCount
@@ -176,6 +192,8 @@ class Koan04 extends GroovyTestCase {
         // What will the value of mysteryList be?
         def expectedMysteryList
         // ------------ START EDITING HERE ----------------------
+
+
 
 
         // ------------ STOP EDITING HERE  ----------------------
