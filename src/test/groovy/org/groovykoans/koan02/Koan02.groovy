@@ -31,8 +31,8 @@ class Koan02 extends GroovyTestCase {
         // ------------ START EDITING HERE ----------------------
 
 
-
-
+        predicate2 = predicate1
+        predicate1 =  true
 
 
         // ------------ STOP EDITING HERE  ----------------------
@@ -49,7 +49,8 @@ class Koan02 extends GroovyTestCase {
         // ------------ START EDITING HERE ----------------------
 
 
-
+        map['a'] = 'b'
+        list.clear()
 
 
         // ------------ STOP EDITING HERE  ----------------------
@@ -66,8 +67,8 @@ class Koan02 extends GroovyTestCase {
         // ------------ START EDITING HERE ----------------------
 
 
-
-
+        s1 = ''
+        s2 = 'abcd'
 
 
         // ------------ STOP EDITING HERE  ----------------------
@@ -87,7 +88,7 @@ class Koan02 extends GroovyTestCase {
         // ------------ START EDITING HERE ----------------------
 
 
-
+        balance[3] = 1
 
 
 
