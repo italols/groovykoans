@@ -106,9 +106,7 @@ class Koan01 extends GroovyTestCase {
         // Hint: you can use either Java's add(int, String) or Groovy's plus() method.
         // ------------ START EDITING HERE ----------------------
 
-        groovyList -=  ['Prince']
-        groovyList +=  ['Queen']
-        groovyList +=  ['Prince']
+        groovyList.add(1,'Queen')
 
         // ------------ STOP EDITING HERE  ----------------------
 
