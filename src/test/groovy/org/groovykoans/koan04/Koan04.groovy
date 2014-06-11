@@ -48,7 +48,7 @@ class Koan04 extends GroovyTestCase {
         // ------------ START EDITING HERE ----------------------
 
 
-
+        expectedHelloClosureResult = 'Hello from Closure'
 
 
 
@@ -64,7 +64,7 @@ class Koan04 extends GroovyTestCase {
         // ------------ START EDITING HERE ----------------------
 
 
-
+        expectedHelloRonalda = 'Hello Ronalda'
 
 
 
@@ -82,7 +82,7 @@ class Koan04 extends GroovyTestCase {
         // ------------ START EDITING HERE ----------------------
 
 
-
+        expectedHappyBirthdayGranger = 'Happy Birthday To Hermione'
 
 
 
@@ -94,7 +94,7 @@ class Koan04 extends GroovyTestCase {
         // ------------ START EDITING HERE ----------------------
 
 
-
+        resultClosure = {int num1,int num2 -> (num1+num2)*2}
 
 
 
