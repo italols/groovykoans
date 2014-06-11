@@ -41,8 +41,8 @@ class Koan03 extends GroovyTestCase {
         // ------------ START EDITING HERE ----------------------
 
 
-
-
+        javaFirstName = javaPerson.getFirstName()
+        groovyFirstName = groovyPerson.firstName
 
 
         // ------------ STOP EDITING HERE  ----------------------
@@ -62,7 +62,7 @@ class Koan03 extends GroovyTestCase {
             // ------------ START EDITING HERE ----------------------
 
 
-
+            person.ssn = '1234'
 
 
 
@@ -89,7 +89,7 @@ class Koan03 extends GroovyTestCase {
         // ------------ START EDITING HERE ----------------------
 
 
-
+        transaction = new SimpleGroovyBean(title: 'ABCD do Groovy', data: -30)
 
 
 

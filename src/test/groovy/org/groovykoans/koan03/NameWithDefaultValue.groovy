@@ -22,7 +22,11 @@ class NameWithDefaultValue {
     // ------------ START EDITING HERE ----------------------
 
 
+    NameWithDefaultValue(name = 'Anonymous'){
 
+        this.name = name
+
+    }
 
 
 
