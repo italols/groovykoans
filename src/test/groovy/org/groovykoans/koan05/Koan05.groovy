@@ -52,7 +52,9 @@ class Koan05 extends GroovyTestCase {
         // ------------ START EDITING HERE ----------------------
 
 
-
+        idToNameMap.each { key, value ->
+            idListResult.add("$key$value")
+        }
 
 
 
@@ -72,7 +74,7 @@ class Koan05 extends GroovyTestCase {
         // ------------ START EDITING HERE ----------------------
 
 
-
+        expectedRange = [5, 6, 7, 8, 9, 10]
 
 
 
@@ -88,8 +90,12 @@ class Koan05 extends GroovyTestCase {
         def rangeResult = []
         // ------------ START EDITING HERE ----------------------
 
+        def range = 'a'..'z'
 
-
+        range.eachWithIndex{ valor, index ->
+            if(index % 2 == 0)
+                rangeResult += valor
+        }
 
 
 
