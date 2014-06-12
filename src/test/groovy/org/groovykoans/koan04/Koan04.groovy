@@ -94,7 +94,7 @@ class Koan04 extends GroovyTestCase {
         // ------------ START EDITING HERE ----------------------
 
 
-        resultClosure = {int num1,int num2 -> (num1+num2)*2}
+        resultClosure = {int num1, int num2 -> (num1 + num2) * 2}
 
 
 
@@ -131,7 +131,7 @@ class Koan04 extends GroovyTestCase {
         // ------------ START EDITING HERE ----------------------
 
 
-
+        assert javaResult == groovyResult
 
 
 
@@ -151,7 +151,7 @@ class Koan04 extends GroovyTestCase {
         // ------------ START EDITING HERE ----------------------
 
 
-
+        expectedMonkeyColors += ['blue','red','purple']
 
 
 
@@ -168,7 +168,8 @@ class Koan04 extends GroovyTestCase {
         // ------------ START EDITING HERE ----------------------
 
 
-
+        def f = new File("$prefix/exercise.txt")
+        f.filterLine(filteredResult){!it.startsWith('#')}
 
 
 
@@ -192,7 +193,7 @@ class Koan04 extends GroovyTestCase {
 
 
 
-
+        expectedCount = 3
 
 
         // ------------ STOP EDITING HERE  ----------------------
@@ -210,7 +211,7 @@ class Koan04 extends GroovyTestCase {
         // ------------ START EDITING HERE ----------------------
 
 
-
+        expectedMysteryList = ['Baby', 'Yeah']
 
 
 
